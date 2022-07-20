@@ -1,0 +1,42 @@
+/* common styles */
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.blog {
+  width: 312px;
+  height: 362px;
+  border: 1px solid rgb(230, 230, 230);
+border-radius: 12px;
+}
+
+.trans-button a{
+  list-style: none;
+  text-decoration: none; 
+  padding: 4px 20px; 
+  border: 1px solid #161616;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #161616;
+  line-height: 24px;
+}
+
+ .blog-info-icon{
+  padding: 15px;
+ }
+
+ .blog .icons{
+  display: flex;
+ }
+ .icon-image{
+  margin-right: 10px;
+ }
+ .blog .icons .icon{
+  display: flex;
+  margin-right: 20px;
+ }
