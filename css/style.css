@@ -7,12 +7,17 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 .container{
-  width: 1321px;
-  margin: 130px;
+  display: flex;
+  justify-content: center;
+}
+.main{
+  display: flex;
+  flex-direction: row;
+  column-gap: 24px;
 }
 .flex-container{
   display: flex;
-  
+  flex-direction: row;
 }
 
 /* aside nav  */
@@ -54,13 +59,17 @@ body{
   width: 252px;
   margin-top: 15px;
 } 
-
+#linked-button{
+  background-color: #dd0000;
+  color: #ffffff;
+}
 
 
 .blogs{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   row-gap: 24px;
+  column-gap: 24px;
 }
 .blog {
   width: 312px;
