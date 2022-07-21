@@ -1,4 +1,5 @@
 /* common styles */
+
 /* fonts */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
@@ -13,7 +14,9 @@ body {
   align-items: center;
   row-gap: 130px;
 }
-/* Header Area */
+/* ----------
+Header Area
+------------ */
 .main-div {
   width: 1321px;
   background-color: #161616;
@@ -72,18 +75,30 @@ body {
   width: 500px;
   height: 580px;
 }
+/* ----------
+Header Area ends
+------------ */
 
+/* ----------------
+ main body area starts 
+-------------------- */
 .main {
   display: flex;
   flex-direction: row;
   column-gap: 24px;
+  margin-bottom: 100px;
 }
 .flex-container {
   display: flex;
   flex-direction: row;
 }
+/* ----------------
+ main body area ends 
+-------------------- */ 
 
-/* aside nav  */
+/* ------------
+aside nav starts
+---------------  */
 
 .button-effect:hover {
   background-color: rgb(152, 201, 243);
@@ -137,6 +152,13 @@ body {
   row-gap: 24px;
   column-gap: 24px;
 }
+/* -----------
+ aside nav ends
+ -------------  */
+
+/* -----------
+Blog style starts
+--------------- */
 .blog {
   width: 312px;
   height: 362px;
@@ -170,9 +192,17 @@ body {
   display: flex;
   margin-right: 20px;
 }
+/* -----------
+Blog style ends
+------------ */ 
 
-/* Footer  */
+
+/* ------------
+Footer Starts
+---------------- */
 footer {
+  position: absolute;
+  width: 100%;
   height: 444px;
   background-color: #161616;
   margin: 0;
@@ -196,6 +226,7 @@ footer ul li a {
   text-decoration: none;
   color: #ffffff;
 }
+
 .footer-links {
   display: flex;
   justify-content: center;
@@ -203,3 +234,9 @@ footer ul li a {
   column-gap: 60px;
   margin-top: 70px;
 }
+.footer-links li{
+  list-style: none;
+}
+/*  ----------
+Footer ends
+----------  */
