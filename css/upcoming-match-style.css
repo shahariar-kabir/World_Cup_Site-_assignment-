@@ -96,7 +96,7 @@ Header Area ends
 }
 /* ----------------
  main body area ends 
--------------------- */ 
+-------------------- */
 
 /* ------------
 aside nav starts
@@ -183,20 +183,20 @@ Blog style starts
 }
 /* -----------
 Blog style ends
------------- */ 
-
+------------ */
 
 /* ------------
 Footer Starts
 ---------------- */
 footer {
+  position: relative;
   height: 444px;
   background-color: #161616;
   margin-top: 100px;
   padding: 0;
 }
 
-  footer h1 {
+footer h1 {
   font-size: 40px;
   font-weight: 600;
   padding: 100px;
@@ -221,7 +221,7 @@ footer ul li a {
   column-gap: 60px;
   margin-top: 70px;
 }
-.footer-links li{
+.footer-links li {
   list-style: none;
 }
 /*  ----------
